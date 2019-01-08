@@ -110,10 +110,6 @@ String handling
   Macro based standard string interpolation / formatting. Inpired by
   Python's ```f``-strings.
 
-* `strmisc <strmisc.html>`_
-  This module contains uncommon string handling operations that do not
-  fit with the commonly used operations in strutils.
-
 * `parseutils <parseutils.html>`_
   This module contains helpers for parsing tokens, numbers, identifiers, etc.
 

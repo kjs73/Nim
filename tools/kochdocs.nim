@@ -157,7 +157,6 @@ lib/pure/streams.nim
 lib/pure/terminal.nim
 lib/pure/cgi.nim
 lib/pure/unicode.nim
-lib/pure/strmisc.nim
 lib/pure/htmlgen.nim
 lib/pure/parseutils.nim
 lib/pure/browsers.nim
