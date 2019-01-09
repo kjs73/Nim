@@ -9,7 +9,7 @@
 
 ## HTML generator for the tester.
 
-import backend, strutils, json, os, tables, times
+import cgi, backend, strutils, json, os, tables, times
 
 import "testamenthtml.templ"
 

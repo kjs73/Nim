@@ -2,12 +2,12 @@ discard """
   output: "works"
 """
 
-import uri, strtabs
+import cgi, strtabs
 
 proc handleRequest(query: string): StringTableRef =
   iterator foo(): StringTableRef {.closure.} =
     var params = {:}.newStringTable()
-    for key, val in uri.decodeData(query):
+    for key, val in cgi.decodeData(query):
       params[key] = val
     yield params
 
